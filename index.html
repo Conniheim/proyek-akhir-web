@@ -1,0 +1,152 @@
+<!DOCTYPE html><html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman College Portofolio</title>  
+
+     <!-- My Own Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+   <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;600&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+      function darkmode() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+    </script>
+  
+    
+  </head>
+
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>College Portofolio</h1>
+        <p>
+        Website mengenai proyek dan kepanitiaan apa saja yang diikuti di kuliah
+        </p>
+      </div>
+
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kepanitiaan">Kepanitiaan</a></li>
+        <li><button onclick="darkmode()">Click for Dark Mode</button></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+    <!-- Artikel Introduksi -->
+    <div id="content">
+      <article id="introduction" class="card">
+        <h2>Introduction</h2>
+        <p>
+        Halaman website ini dibuat untuk mendokumentasikan dan menjelaskan singkat mengenai apa proyek yang telah 
+        dikerjakan dan kepanitiaan yang telah diikuti oleh penulis website. Penulis website merupakan mahasiswa Teknik
+        Komputer angkatan 2020 di Institut Teknologi Sepuluh Nopember Surabaya. 
+        </p>
+      </article>
+
+     <!--Artikel Proyek-->
+      <article id="proyek" class="card">
+        <h2>Proyek</h2>
+        <section>
+            <h3>Jam Arduino</h3>
+            <img src="assets/img/clock.jpeg" alt="clock-image" class="featured-image"/>
+            <p>
+            Jam Arduino merupakan jam yang dibuat menggunakan Arduino. Display jam ditampilkan menggunakan 
+            Dot Matrix Display dan didalam jam terdapat sensor suhu lm35 dan RTC DS3231. Jam dapat diinputkan 
+            menggunakan sebuah keyboard ps2. Jam dapat menunjukkan jam, tanggal, dan suhu. Tanggal dan jam dapat 
+            di setting menggunakan keyboard. Proyek ini dibuat untuk tugas mata kuliah Sistem Tertanam.
+            </p>
+          </section>
+       
+          <section>
+            <h3>Permainan VR dengan Pengalaman 4D, "Object Jump"</h3>
+            <img src="assets/img/game.jpeg" alt="game-image" class="featured-image"/>
+            <p>
+            Proyek ini merupakan pembuatan game VR berjudul "Obstacle Jump" yang bergenre platformer dengan 
+            perangkat yang dapat memberi pengalaman 4D. Objektif dari permainan ini adalah untuk menyentuh tombol
+            yang ada di akhir level. Jika pemain terjatuh kedalam kolam aur, maka perangkat 4D akan menyemburkan air,
+            jika pemain berjalan, maka perangkat 4D akan menyalakan motor rumble vibrator di kaki pemain dan jika pemain 
+            menggunakan zipline maka dan pada perangkat 4D akan menyala. Proyek ini dibuat untuk tugas mata kuliah Proyek Telematika.
+            </p>
+          </section>
+
+      <!--Artikel Kepanitiaan-->
+      </article>
+      <article id="kepanitiaan" class="card">
+        <h2>Kepanitiaan</h2>
+        <section>
+          <h3>MAGE 7 dan 8</h3>
+          <img src="assets/img/mage.jpg" alt="mage-image" class="kepanitiaan-image"/>
+          <p>
+            MAGE atau Multimedia and Game Event merupakan salah satu event dari departmen Teknik Komputer ITS. Saat MAGE 7, 
+            penulis menjadi panitia pada divisi humas dan saat MAGE 8, penulis menjadi wakil koordinator pada divisi humas. 
+          </p>
+        </section>
+     
+        <section>
+          <h3>PMK ITS - PKMBK 2021</h3>
+          <img src="assets/img/pmk.png" alt="pmk-image" class="kepanitiaan-image"/>
+          <p>
+            PKMBK merapakan salah satu divisi dari dari PMK ITS atau Persekutuan Mahasiswa Kristen ITS. Penulis menjadi panitia pada divisi perlengkapan pada saat PKMBK 2021.
+          </p>
+        </section>
+      </article>
+    </div>
+   
+   
+    <!-- Konten samping/aside -->
+    <aside>
+      <article class="profile">
+        <header>
+          <h2>Profil Penulis</h2>
+          <figure>
+            <img src="assets/img/profile.jpeg" alt="profile-image" class="featured-image"/>
+          </figure>
+        </header>
+        <section>
+      <table>
+        <tr>
+          <th>Nama</th>
+          <td>Luky Anggana Mulyono</td>
+        </tr>
+        <tr>
+          <th>Lahir</th>
+          <td>13 Maret 2002</td>
+        </tr>
+        <tr>
+          <th>Kampus</th>
+          <td>ITS Surabaya</td>
+        </tr>
+        <tr>
+          <th>Contact</th>
+          <td><a href="wa.link/2utd71"><i class="fa fa-phone"></i></a></td>
+        </tr>
+      </table>
+        </section>
+      </article>
+    </aside>
+  
+  </main>
+
+  <!--Footer-->
+  <footer>
+    <p>Copyright &copy; 2023-Luky</p>
+  </footer>
+  </body>
+
+</html>
